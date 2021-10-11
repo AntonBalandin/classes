@@ -10,15 +10,15 @@ using namespace std;
 //	fin.exceptions(ifstream::badbit | ifstream::failbit);
 //	try
 //	{
-//		cout << "\nÏîïûòêà îòêðûòü ôàéë";
+//		cout << "\nÃÃ®Ã¯Ã»Ã²ÃªÃ  Ã®Ã²ÃªÃ°Ã»Ã²Ã¼ Ã´Ã Ã©Ã«";
 //		fin.open("example.txt");
-//		cout << "\nÔàóë óñïåøíî îòêðûò";
+//		cout << "\nÃ”Ã Ã³Ã« Ã³Ã±Ã¯Ã¥Ã¸Ã­Ã® Ã®Ã²ÃªÃ°Ã»Ã²";
 //	}
 //			catch (const ifstream::failure& ex)
 //			{
 //				cout << ex.what() << endl;
 //				cout << ex.code() << endl;
-//				cout << "\nÎøèáêà îòêðûòèÿ ôàéëà";
+//				cout << "\nÃŽÃ¸Ã¨Ã¡ÃªÃ  Ã®Ã²ÃªÃ°Ã»Ã²Ã¨Ã¿ Ã´Ã Ã©Ã«Ã ";
 //			}
 //		
 //			return 0;
@@ -30,7 +30,7 @@ void Func(double v)
 {
 	if (v == 0)
 	{
-		throw "Äåëåíèå íà 0";
+		throw "Ð”ÐµÐ»ÐµÐ½Ð¸Ðµ Ð½Ð° 0";
 	}
 	cout << 100. / v;
 }
@@ -55,7 +55,7 @@ int main() {
 	}*/
 	catch (const char *e)
 	{
-		const char *r = "Àòàòà";
+		const char *r = "Ã€Ã²Ã Ã²Ã ";
 		cout << r;
 	}
 	return 0;
